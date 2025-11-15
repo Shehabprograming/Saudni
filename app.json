@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "ساعدني - Saedni",
+    "slug": "saedni-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "scheme": "saedni",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.saedni.app"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#3B82F6"
+      },
+      "package": "com.saedni.app"
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "single"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-location",
+      "expo-image-picker"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}
